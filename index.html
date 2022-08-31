@@ -21,9 +21,22 @@
 
     <title>La Panthère - Agence de web design</title>
 
-    
 <!-- Analytics -->
- 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config','AW-CONVERSION_ID');
+</script>
+
+<script>
+	gtag('event', 'conversion', {'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL',
+	  'value': 1.0,
+	  'currency': 'USD'
+	});
+  </script>
 <!-- Analytics END -->
     
 </head>
