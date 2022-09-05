@@ -2015,6 +2015,16 @@ pre code {
     margin-left: -15px
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+} 
+
+.footer p{
+    text-align: center;
+    margin-top: 20px;
+}
+
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,

@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -677,7 +676,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -702,6 +701,14 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+
+.fa {
+    color: black!important;
+}
+
+.icon-md {
+    color: black;
 }
 
 h2 {
@@ -753,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(60, 61, 62, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,20 +778,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: white;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: white;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #000000!important;
     color: #FFFFFF!important;
 }
 
@@ -1033,10 +1040,79 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .portfolio-row img {
+        width: 100%;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.title-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.title-1 h2 {
+    width: 70%;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.signature {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.signature h3 {
+    font-size: 1.0em;
+    margin-top: 0;
+    font-weight: 100;
+    text-transform: none;
+}
+
+.text-center p {
+    display: none;
+}
+
+#bloc-6, .contact-footer {
+    background-color: #484848;
+}
+
+.contact-title, .contact-footer {
+    max-width: none;
+    text-align: center;
+}
+
+.form-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.container-form {
+    max-width: none;
+}
+
+label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#bloc-7 {
+    padding: 0;
 }
