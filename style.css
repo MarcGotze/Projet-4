@@ -1058,6 +1058,14 @@ h4 {
     form button {
         align-items: center;
     }
+
+    .form-group {
+        width: 90%;
+    }
+
+    #message {
+        width: 70%;
+    }
 }
 
 @media (max-width: 767px) {
