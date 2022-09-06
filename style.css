@@ -321,7 +321,6 @@ a:hover {
 }
 
 .nav > li {
-    float: left;
     margin-top: 4px;
     font-size: 16px;
 }
@@ -361,12 +360,10 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+   .l-bloc, 
+   .site-navigation {
+        display: flex;
+        align-items: center;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
