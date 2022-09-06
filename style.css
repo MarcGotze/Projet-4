@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -459,10 +458,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -829,7 +824,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1050,6 +1045,22 @@ h4 {
         justify-content: center;
         gap: 20px;
     }
+
+    #nav-toggle {
+        margin-top: -39px;
+    }
+
+    .return i {
+        margin-bottom: 20px;
+    }
+    
+    .navbar-header img {
+        padding-left: 10px;
+    }
+
+    form button {
+        align-items: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1101,7 +1112,7 @@ h4 {
 .form-block {
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 415px;
 }
 
 .container-form {
@@ -1114,5 +1125,25 @@ label {
 }
 
 #bloc-7 {
+    padding: 0;
+}
+
+.container {
+    max-width: none;
+    width: 100%;
+}
+
+.contact-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+#bloc-6 {
+    padding: 0;
+}
+
+#bloc-8 {
     padding: 0;
 }
