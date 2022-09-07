@@ -1071,11 +1071,21 @@ h4 {
     #lightbox-image {
         padding-bottom: 15px;
     }
+
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    #nav-toggle {
+        margin-top: -40px;
+    }
+    .col-sm-6 img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -1167,4 +1177,8 @@ label {
 
 .bloc-button {
     background-color: wheat;
+}
+
+.navbar-header {
+    margin-top: 5px;
 }
