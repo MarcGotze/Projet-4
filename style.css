@@ -603,6 +603,7 @@ a[data-lightbox]:hover img {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
+    background-color: white;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -1055,16 +1056,25 @@ h4 {
         padding-left: 10px;
     }
 
+    #form_1 {
+        margin-left: 10px;
+    }
+
     form button {
         align-items: center;
     }
 
-    .form-group {
-        width: 90%;
+    .form-group, .bloc-button {
+        width: 95%;
     }
 
-    #message {
-        width: 70%;
+    .showScrollTop {
+        width: 15%;
+        opacity: 0.8;
+    }
+
+    #lightbox-image {
+        padding-bottom: 15px;
     }
 }
 
@@ -1115,9 +1125,11 @@ h4 {
 }
 
 .form-block {
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 415px;
+    width: 100%;
 }
 
 .container-form {
@@ -1138,6 +1150,11 @@ label {
     width: 100%;
 }
 
+.return {
+    width: 100%;
+    text-align: right;
+}
+
 .contact-navbar {
     display: flex;
     justify-content: space-between;
@@ -1151,4 +1168,8 @@ label {
 
 #bloc-8 {
     padding: 0;
+}
+
+.bloc-button {
+    background-color: wheat;
 }
