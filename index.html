@@ -15,6 +15,30 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
     
+	<!-- Javascript -->
+	<script async src="./js/jquery-2.1.0.min.js"></script>
+	<script async src="./js/bootstrap.js"></script>
+	<script async src="./js/blocs.min.js"></script>
+	<script async src="./js/jquery.touchSwipe.js" defer></script>
+
+	<!-- Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config','AW-CONVERSION_ID');
+	</script>
+
+	<script>
+		gtag('event', 'conversion', {'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL',
+		'value': 1.0,
+		'currency': 'EUR'
+		});
+	</script>
+	<!-- Analytics END -->
+
     <title>Les experts du web design à Lyon - La Panthère</title>
     
 </head>
@@ -240,31 +264,6 @@
 
 	<!-- Principal conteneur END -->
 	</div>
-		
-	<!-- Javascript -->
-	<script async src="https://code.jquery.com/jquery-2.1.0.min.js" integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0=" crossorigin="anonymous"></script>
-	<script async src="./js/bootstrap.js"></script>
-	<script async src="./js/blocs.min.js"></script>
-	<script async src="./js/jquery.touchSwipe.js" defer></script>
-	<script async src="./js/gmaps.js"></script>
-
-	<!-- Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config','AW-CONVERSION_ID');
-	</script>
-
-	<script>
-		gtag('event', 'conversion', {'send_to': 'AW-CONVERSION_ID/CONVERSION_LABEL',
-		'value': 1.0,
-		'currency': 'EUR'
-		});
-	</script>
-	<!-- Analytics END -->
 
 </body>
 </html>

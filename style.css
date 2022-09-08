@@ -1044,7 +1044,7 @@ h4 {
     }
 
     .return i {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     .navbar-header img {
@@ -1181,4 +1181,8 @@ label {
 
 .navbar-header {
     margin-top: 5px;
+}
+
+.return span {
+    padding-left: 5px;
 }
